@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+	.main {
+		position: relative;
+		margin: 2em auto;
+		width: 27.9em;
+		height: 55.3em;
+		background: #f5f5f5;
+		border-radius: 3.7em;
+		box-shadow: 0 .3em .3em  #c4c4c4;
+	}
+	.main:before {
+		content: "";
+		position: absolute;
+		top: 1.8em;
+		left: 50%;
+		transform: translateX(-50%);
+		width: .38em;
+		height: .38em;
+		border-radius: 50%;
+		background: #757575;
+	}
+	.main:after {
+		content: "";
+		position: absolute;
+		top: calc(100% - 6.5em);
+		left: 50%;
+		transform: translateX(-50%);
+		width: 4.4em;
+		height: 4.4em;
+		border-radius: 50%;
+		border: .25em solid #858585;
+	}
+	.main>div {
+		position: absolute;
+		top: 3.5em;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 4em;
+		height: .28em;
+		background: #898989;
+		border-radius: .12em;
+	}
+	.inner {
+		position: absolute;
+		top: 6.75em;
+		left: 50%;
+		transform: translateX(-50%);
+		width: calc(100% - 2.3em);
+		height: calc(100% - 14.4em);
+		background: #696969;
+	}
+	.inner:before {
+		content: "";
+		position: absolute;
+		top: -3.6em;
+		left: calc(50% - 4.5em);
+		width: .87em;
+		height: .87em;
+		border-radius: 50%;
+		background:#696969; 
+	}
